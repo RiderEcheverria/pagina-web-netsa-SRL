@@ -352,7 +352,7 @@ a:focus {
     }
     
     .page .navbar {
-        background: #20212B !important;
+        background: #2d2b5f !important;
     }
     
     .navbar a.nav-link {
@@ -365,7 +365,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 2px;
-        background: #20212B !important;
+        background: #2d2b5f !important;
     }
     
     .navbar a.nav-link {
