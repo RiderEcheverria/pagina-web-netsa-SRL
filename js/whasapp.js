@@ -49,7 +49,8 @@
             let fecha = document.querySelector('#fecha').value
             let servicio = document.querySelector('#servicio').value
             let plan = document.querySelector('#plan').value
-           // let ubicacion = document.querySelector('#ubicacion').value
+            let input_1_11_lat = document.querySelector('#input_1_11_lat').value
+            let input_1_11_lng = document.querySelector('#input_1_11_lng').value
             
             let mensaje = 'send?phone=' + telefono + 
             '&text=*_Formulario de contacto NETSA SRL._*%0A*Nombre Completo*%0A' + nombre + 
@@ -57,8 +58,9 @@
             '%0A*Numero de Celular*%0A' + numero + 
             '%0A*Fecha de Reserva*%0A' + fecha + 
             '%0A*Tipo de Plan*%0A' + servicio + 
-            '%0A*Plan Seleccionado*%0A' + plan + ''
-           // '%0A*Direccion de Domicilio*%0A' + ubicacion +''
+            '%0A*Plan Seleccionado*%0A' + plan + 
+            '%0A*Latitud*%0A' + input_1_11_lat + 
+            '%0A*Longitud*%0A' + input_1_11_lng +''
            
             
              
